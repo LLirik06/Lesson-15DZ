@@ -1,0 +1,111 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background: url(./img/FuturePast.jpg);
+    background-size: cover;
+}
+.bady{
+    width: 1200px;
+    height: 950px;
+    background-color: white;
+    border-radius: 20px;
+}
+.menu{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.top2{
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(194, 94, 94);
+}
+.top1{
+    width: 100%;
+    height: 100%;
+}
+.top1 > ul {
+    display: flex;
+    position: relative;
+}
+.top1 ul li{
+    display: inline-block;
+    background-color: rgb(128, 128, 128); 
+}
+.top1 a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    line-height: 100px;
+    width: 175px;
+    transition: all 0.8s;
+}
+.mg{
+    background: url(./img/mg.gif);
+    background-size: cover;
+    color: rgb(0, 255, 34);
+}
+.ms{
+    background: url(./img/MS.gif);
+    background-size: cover;
+    color: rgb(0, 255, 34);
+}
+.WF{
+    background: url(./img/Wf.gif);
+    background-size: cover;
+}
+.ST{
+    background: url(./img/S.gif );
+    background-size: cover;
+}
+.ck{
+    background: url(./img/CK.gif );
+    background-size: cover;
+}
+.top1 a:hover{
+    background-color: black;
+    color: rgb(255, 0, 0);
+    border: 1px solid white;
+}
+.top1 ul ul{
+    display: none;
+    position: absolute;
+}
+.top1 ul li:hover > ul{
+    display: block;
+}
+.top1 ul ul li{
+    display: block;
+    position: relative;
+    background-color: yellow;
+}
+.top3 p{
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+    margin-top: 30px;
+}
+.logo1{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    bottom: 440px;
+    right: 300px;
+}
+.logo2{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    bottom: 400px;
+    left: 740px;;
+}
